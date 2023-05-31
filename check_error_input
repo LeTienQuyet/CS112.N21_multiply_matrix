@@ -1,0 +1,5 @@
+bool check_error_input(int row)
+{
+	if (!matrix.size() || row == matrix[matrix.size() - 1][1]) return true;
+	return false;
+}
