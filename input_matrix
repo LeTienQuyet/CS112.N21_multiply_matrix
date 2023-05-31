@@ -1,0 +1,22 @@
+void input_matrix()
+{
+	cout << "Nhap so ma tran can thuc hien phep nhan: ";
+	cin >> n;
+	for (int i = 0; i < n; i++)
+	{
+		int row, col;
+		vector<int> sub_matrix;
+		cout << "Nhap thong tin cua ma tran A" << i << ".\n";
+		cout << "\tNhap so dong va so cot cua ma tran A" << i << ": ";
+		cin >> row >> col;
+		while (!check_error_input(row))
+		{
+			cout << "\tThong tin ban nhap khong thoa man de thuc hien phep nhan. ";
+			cout << "Hay nhap lai so dong va so cot cua ma tran A" << i << ": ";
+			cin >> row >> col;
+		}
+		sub_matrix.push_back(row);
+		sub_matrix.push_back(col);
+		matrix.push_back(sub_matrix);
+	}
+}
