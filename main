@@ -1,7 +1,8 @@
 int main()
 {
 	input_matrix();
-	vector<vector<int>> cost(n, vector<int>(n,-1));
+	vector<vector<int>> cost(n, vector<int>(n, -1));
 	solve_the_problem(cost);
+	print_result(cost);
 	return 0;
 }
