@@ -1,9 +1,0 @@
-#include <iostream>
-#include <vector>
-#include <climits>
-#include <string>
-using namespace std;
-int n; // Số ma trận cần thực hiện phép nhân.
-vector<vector<int>> matrix; // Ma trận 2 chiều (n dòng - 2 cột).
-// Ở hàng thứ i của matrix: Cột thứ nhất biểu thị số dòng, cột thứ hai biểu thị số cột 
-// của ma trận Ai.
