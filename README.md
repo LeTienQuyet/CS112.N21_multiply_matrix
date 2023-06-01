@@ -1,4 +1,5 @@
 # Phân tích và thiết kế thuật toán CS112.N21
+# Bài toán nhân chuỗi dãy/ma trận 
 ## Thành viên nhóm: ##
 |     Họ và tên     |    MSSV    |
 | :---------------: | :--------: |
