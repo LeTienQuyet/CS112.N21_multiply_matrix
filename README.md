@@ -81,5 +81,6 @@
   
 }
 ## Chạy thử chương trình  
+Test case được sử dụng nằm ở phần Ví dụ của mục **Yêu cầu của bài toán** ở trên.  
 ![image](https://github.com/LeTienQuyet/CS112.N21_multiply_matrix/assets/97799935/979b7e36-cd7b-4280-806f-9cb1957b7dc8)
 
