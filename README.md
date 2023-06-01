@@ -12,7 +12,7 @@
 - **Output**:
   - Dòng đầu tiên cho biết số phép nhân thực hiện là ít nhất.
   - Dòng thứ hai là thứ tự nhân các ma trận để đạt được số phép nhân trên.
-  - **LƯU Ý: CÓ THỂ CÓ NHIỀU CÁCH NHÂN CÁC MA TRẬN MÀ MỖI CÁCH ĐÓ ĐỀU CÓ CÙNG SỐ PHÉP NHÂN LÀ ÍT NHẤT. TA CHỈ CHỌN MỘT THỨ TỰ NHÂN ĐỂ IN RA.** 
+  - **LƯU Ý: CÓ THỂ CÓ NHIỀU CÁCH NHÂN CÁC MA TRẬN MÀ CÁC CÁCH ĐÓ ĐỀU CÓ CÙNG SỐ PHÉP NHÂN LÀ ÍT NHẤT. TA CHỈ CHỌN MỘT THỨ TỰ NHÂN ĐỂ IN RA.** 
 - Ví dụ:
   - Input:  
 4  
