@@ -33,7 +33,7 @@
   - Ma trận 2 chiều ($n$ dòng - $n$ cột).  
   - $cost[i][j]$ thể hiện chi phí số phép nhân khi thực hiện nhân ma trận $i$ $\rightarrow$ ma trận $j$.  
     - $cost[i][j]$ = -1 $\leftrightarrow$ Không tồn tại phép nhân từ ma trận $i$ $\rightarrow$ ma trận $j$.  
-    - $cost[i][j]$ > -1 $\leftrightarrow$ Tồn tại phép nhân từ ma trận $i$ $\rightarrow$ ma trận $j$.  
+    - $cost[i][j]$ > -1 $\leftrightarrow$ Số phép nhân được sử dụng khi nhân từ ma trận $i$ $\rightarrow$ ma trận $j$.  
 - **vector<vector\<int\>> $par$**:  
   - Ma trận 2 chiều ($n$ dòng - $n$ cột).  
   - $k = par[i][j]$ là vị trí tối ưu để tách phép nhân ma trận $i$ $\rightarrow$ ma trận $j$ sao cho tổng số phép nhân thực hiện là ít nhất.  
