@@ -10,7 +10,7 @@ void solve_the_problem(vector<vector<int>> &cost)
 			int j = i + delta;
 			for (int k = i; k < j; k++)
 			{
-				int sum_cost = cost[i][k] + cost[k + 1][j] + matrix[i][0] * matrix[i][1] * matrix[j][1];
+				int sum_cost = cost[i][k] + cost[k + 1][j] + matrix[i][0] * matrix[k][1] * matrix[j][1];
 				if (sum_cost < MIN) MIN = sum_cost;
 			}
 			cost[i][j] = MIN;
