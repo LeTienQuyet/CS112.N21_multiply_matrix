@@ -73,7 +73,7 @@ void set_ans(vector<string>& ans)
 		ans.push_back(to_string(i));
 }
 //###################################################################################
-// Hàm solve_ans để đi tìm nhân các  ma trận. 
+// Hàm solve_ans đi tìm cách đầu tiên thỏa mãn nhân các ma trận có chi phí ít nhất. 
 void solve_ans(vector<string>& ans, int start, int end, vector<vector<int>> par)
 {
 	int k = par[start][end];
@@ -86,7 +86,7 @@ void solve_ans(vector<string>& ans, int start, int end, vector<vector<int>> par)
 	solve_ans(ans, k + 1, end, par);
 }
 //###################################################################################
-// Hàm print_ans để in ra cách nhân các ma trận.
+// Hàm print_ans để in ra cách nhân các ma trận tìm được.
 void print_ans(vector<string> ans)
 {
 	cout << "Mot trong cac cach thuc hien phep nhan la: ";
@@ -94,7 +94,8 @@ void print_ans(vector<string> ans)
 		cout << ans[i];
 }
 //###################################################################################
-// Hàm interface giúp hiển thị bảng cost (chi phí) dễ xem hơn cho người đọc.
+// Hàm interface giúp hiển thị bảng cost (chi phí) dễ xem hơn cho người đọc, không 
+// ảnh hưởng đến việc giải quyết bài toán.
 void interface()
 {
 	cout << "Bang chi phi so phep nhan duoc thuc hien:\n";
