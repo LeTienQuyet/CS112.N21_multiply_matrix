@@ -1,10 +1,10 @@
-﻿#include <iostream>
+#include <iostream>
 #include <vector>
 #include <climits>
 #include <string>
 using namespace std;
-int n; 
-vector<vector<int>> matrix; 
+int n;
+vector<vector<int>> matrix;
 // #################################################################################
 // Hàm check_input dùng để kiểm tra xem số dòng của ma trận vừa nhập vào có thỏa mãn
 // điều kiện (bằng số của cột của ma trận trước đó) để thực hiện phép nhân 2 ma trận.
@@ -68,7 +68,7 @@ void solve_cost_table(vector<vector<int>>& cost, vector<vector<int>>& par)
 //###################################################################################
 // Hàm set_ans thiết lập biến ans.
 void set_ans(vector<string>& ans)
-{ 
+{
 	for (int i = 0; i < n; i++)
 		ans.push_back(to_string(i));
 }
