@@ -12,7 +12,7 @@
 - **Output**:
   - Dòng đầu tiên cho biết số phép nhân thực hiện là ít nhất.
   - Dòng thứ hai là thứ tự nhân các ma trận để đạt được số phép nhân trên.
-  - **LƯU Ý: CÓ THỂ CÓ NHIỀU CÁCH NHÂN CÁC MA TRẬN CÓ CÙNG SỐ PHÉP NHÂN LÀ ÍT NHẤT. TA CHỈ CHỌN MỘT THỨ TỰ NHÂN ĐỂ IN RA.** 
+  - **LƯU Ý: CÓ THỂ CÓ NHIỀU CÁCH NHÂN CÁC MA TRẬN MÀ MỖI CÁCH ĐÓ ĐỀU CÓ CÙNG SỐ PHÉP NHÂN LÀ ÍT NHẤT. TA CHỈ CHỌN MỘT THỨ TỰ NHÂN ĐỂ IN RA.** 
 - Ví dụ:
   - Input:  
 4  
@@ -28,7 +28,7 @@
   - Số ma trận cần thực hiện phép nhân.
 - **vector<vector\<int\>> $matrix$**:  
   - Ma trận 2 chiều ($n$ dòng - 2 cột).  
-  - Ở hàng thứ $i$ của matrix: Cột thứ nhất biểu thị số dòng, cột thứ hai biểu thị số cột của ma trận $i$.
+  - Ở hàng thứ $i$ của $matrix$: Cột thứ nhất biểu thị số dòng, cột thứ hai biểu thị số cột của ma trận $i$.
 - **vector<vector\<int\>> $cost$**:  
   - Ma trận 2 chiều ($n$ dòng - $n$ cột).  
   - $cost[i][j]$ thể hiện chi phí số phép nhân khi thực hiện nhân ma trận $i$ $\rightarrow$$ ma trận $j$.  
