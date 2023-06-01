@@ -4,6 +4,11 @@
 | :---------------: | :--------: |
 | Nguyễn Nhật Minh  | 21521135   |
 | Lê Tiến Quyết     | 21520428   |
+## Yêu cầu của bài toán:  
+- **Input**: 
+  - Một số nguyên dương n (0 < n <= 20) cho biết số ma trận cần thực hiện phép nhân.  
+  - n dòng tiếp theo, mỗi dòng gồm 2 số nguyên dương $r_i$ và $l_i$ (0 < $r_i$, $l_i$ <= 100) cho biết số hàng và số cột của ma trận i.
+- **Output**:  
 ## Mô tả các biến chính trong chương trình:  
 - **int n**:   
   - Số ma trận cần thực hiện phép nhân.
