@@ -39,4 +39,40 @@
   - $k = par[i][j]$ là vị trí tối ưu để tách phép nhân ma trận $i$ $\rightarrow$ ma trận $j$ sao cho tổng số phép nhân thực hiện là ít nhất.  
 - **vector\<string\> $ans$**:  
   - Dùng để lưu trữ một trong các lời giải của bài toán.  
+ ## Mã giả giải quyết bài toán:
  
+**optimal_solution**(matrix, cost, n, ans, par) {
+
+&emsp;Gán tất cả các cost[i][i]=0 với i chạy từ 0 đến n-1   &emsp;   // *Số phép nhân thực hiện khi chỉ có một ma trận là 0*
+  
+&emsp;delta = 1;     &emsp;  // *(delta + 1) là số lượng ma trận trong chuỗi ma trận con mà ta muốn xét* 
+  
+&emsp;while (delta < n) {
+  
+&emsp;&emsp;for(i = 0; i + delta < n; i++) {
+    
+&emsp;&emsp;    Gán j = i + delta;
+      
+&emsp;&emsp;    for(k = i; k < j; k++) { &emsp;  // *k là biến lần lượt duyệt qua các vị trí có thể phân chia (đặt dấu ngoặc)*
+      
+&emsp;&emsp;&emsp;    Gán sum_cost = số phép nhân sẽ được thực hiện với vị trí k phân chia hiện tại;
+      
+&emsp;&emsp;&emsp;    if(sum_cost < min) { &emsp;  // *Số phép nhân tối thiểu cần thực hiện với chuỗi ma trận con tính đến thời điểm so sánh*
+      
+&emsp;&emsp;&emsp;&emsp;    Gán lại min = sum_cost;
+        
+&emsp;&emsp;&emsp;&emsp;    if(delta > 1) Gán par[i][j] = k;  &emsp;// *Lưu trữ vị trí phân chia của ma trận con (bao gồm ma trận i đến ma trận j)*
+&emsp;&emsp;&emsp;&emsp;    }
+&emsp;&emsp;      }
+      
+&emsp;&emsp;    cost[i][j] = min;   &emsp; // *Lưu số phép nhân tối thiểu khi thực hiện nhân các ma trận trong chuỗi ma trận con*
+      
+&emsp;&emsp;    delta++; &emsp;// *Tăng số lượng ma trận trong chuỗi ma trận con thêm 1*
+    
+&emsp;}
+  
+&emsp;Xuất ra màn hình số phép nhân tối thiểu cần thực hiện để nhân chuỗi ma trận 
+  
+&emsp;Xuất ra màn hình một cách đặt các dấu ngoặc thể hiện thứ tự các phép nhân 
+  
+}
