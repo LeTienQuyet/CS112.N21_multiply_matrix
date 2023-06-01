@@ -98,7 +98,7 @@ void print_ans(vector<string> ans)
 void interface()
 {
 	cout << "Bang chi phi so phep nhan duoc thuc hien:\n";
-	cout << "---------";
+	cout << "--------";
 	for (int i = 0; i < n; i++)
 		cout << "----------------";
 	cout << "\n";
@@ -106,7 +106,7 @@ void interface()
 	for (int i = 0; i < n; i++)
 		cout << "\t" << i << "\t|";
 	cout << "\n";
-	cout << "---------";
+	cout << "--------";
 	for (int i = 0; i < n; i++)
 		cout << "----------------";
 	cout << "\n";
@@ -121,7 +121,7 @@ void print_cost_table(vector<vector<int>> cost) {
 			cout << "\t" << cost[i][j] << "\t|";
 		cout << "\n";
 	}
-	cout << "---------";
+	cout << "--------";
 	for (int i = 0; i < n; i++)
 		cout << "----------------";
 	cout << "\nTong so phep nhan toi thieu su dung la: " << cost[0][n - 1] << endl;
