@@ -1,10 +1,10 @@
 # Phân tích và thiết kế thuật toán CS112.N21
-# Bài toán nhân chuỗi dãy/ma trận 
 ## Thành viên nhóm: ##
 |     Họ và tên     |    MSSV    |
 | :---------------: | :--------: |
 | Nguyễn Nhật Minh  | 21521135   |
 | Lê Tiến Quyết     | 21520428   |
+# Bài toán nhân chuỗi dãy/ma trận 
 ## Yêu cầu của bài toán:  
 - **Input**: 
   - Một số nguyên dương $n$ ($0 < n <= 20$) cho biết số ma trận cần thực hiện phép nhân.  
