@@ -78,10 +78,16 @@ void solve_ans(vector<string>& ans, int start, int end, vector<vector<int>> par)
 {
 	int k = par[start][end];
 	if (k == -1) return;
-	ans[start] = "(" + ans[start];
-	ans[k] += ")";
-	ans[k + 1] = "(" + ans[k + 1];
-	ans[end] += ")";
+	if (k > start)
+	{
+		ans[start] = "(" + ans[start];
+		ans[k] += ")";
+	}
+	if (end > k + 1)
+	{
+		ans[k + 1] = "(" + ans[k + 1];
+		ans[end] += ")";
+	}
 	solve_ans(ans, start, k, par);
 	solve_ans(ans, k + 1, end, par);
 }
