@@ -22,7 +22,7 @@
 5 10  
   - Output:  
 1000  
-(0)((12)(3)) hoặc (0(12))(3) 
+0((12)3) hoặc (0(12))3
 ## Mô tả các biến chính trong chương trình:  
 - **int $n$**:   
   - Số ma trận cần thực hiện phép nhân.
