@@ -61,7 +61,7 @@
       
 &emsp;&emsp;&emsp;&emsp;&emsp;    Gán lại min = sum_cost;
         
-&emsp;&emsp;&emsp;&emsp;&emsp;    if(delta > 1) Gán par[i][j] = k;  &emsp;// *Lưu trữ vị trí phân chia của ma trận con (bao gồm ma trận i đến ma trận j)*
+&emsp;&emsp;&emsp;&emsp;&emsp;    if(delta > 1) Gán par[i][j] = k;  &emsp;// *Lưu trữ vị trí phân chia của ma trận con, nếu có hơn 2 ma trận trong chuỗi (bao gồm ma trận i đến ma trận j)*
 
 &emsp;&emsp;&emsp;&emsp;&emsp;    }
 
