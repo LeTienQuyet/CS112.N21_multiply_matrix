@@ -81,6 +81,6 @@
   
 }
 ## Chạy thử chương trình  
-Test case được sử dụng nằm ở phần Thư mục của mục [**testcase**](https://github.com/LeTienQuyet/CS112.N21_multiply_matrix/tree/main/testcase).
+Test case được sử dụng nằm ở phần Thư mục [**testcase**](https://github.com/LeTienQuyet/CS112.N21_multiply_matrix/tree/main/testcase).  
 Click vào [**đây**](https://drive.google.com/file/d/11w80zFDUmch0s_cGrIQvR56FD0LCxj0N/view?usp=drive_link) để xem video chạy thử chương trình với phần test case trên.
 
