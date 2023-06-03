@@ -82,6 +82,5 @@
 }
 ## Chạy thử chương trình  
 Test case được sử dụng nằm ở phần Ví dụ của mục [**Yêu cầu của bài toán**](https://github.com/LeTienQuyet/CS112.N21_multiply_matrix#y%C3%AAu-c%E1%BA%A7u-c%E1%BB%A7a-b%C3%A0i-to%C3%A1n) ở trên.  
-Và dưới đây video chạy thử chương trình với test case trên:
-
+Click vào [**đây**](https://drive.google.com/file/d/11w80zFDUmch0s_cGrIQvR56FD0LCxj0N/view?usp=drive_link) để xem video chạy thử chương trình với test case trên.
 
